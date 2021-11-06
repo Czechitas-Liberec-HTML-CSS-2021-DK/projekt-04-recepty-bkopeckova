@@ -171,11 +171,11 @@ h1 {
     }
     .cast1 {
         width: 50%;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .cast2 {
         width: 50%;
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 }
 
@@ -212,18 +212,17 @@ h1 {
         flex-direction: row;
     }
     .cast1 {
-        flex-direction: column;
+        /* flex-direction: column; */
         width: 33.3%;
     }
     .cast2 {
-        flex-direction: column;
+        /* flex-direction: column; */
         width: 33.3%;
     }
     .maly {
         min-height: 200px;
     }
     .all {
-        display: flexbox;
-        flex-direction: row;
+        display: flex;
     }
 }
