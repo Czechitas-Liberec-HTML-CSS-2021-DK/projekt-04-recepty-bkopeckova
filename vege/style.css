@@ -1,9 +1,18 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: inherit;
+}
 
 
 /* -------------------------------------------------- */
+
 
 /*
 pouzivame mobile first pristup
@@ -17,10 +26,10 @@ středně široké obrazovky:
 }
 */
 
-
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 .paticka {
@@ -35,5 +44,97 @@ body {
 
 
 /* ------------------------------- */
+
+
 /* ----- DOLE BUDE TVOJE CSS ----- */
+
+
 /* ------------------------------- */
+
+.salat {
+    background-image: url("images/salat.jpg");
+    display: flex;
+    background-position: center;
+    min-height: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.svacina {
+    background-image: url("images/chlebicek.jpg");
+    display: flex;
+    background-position: center;
+    min-height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.lusteniny {
+    background-image: url("images/cizrna.jpg");
+    display: flex;
+    background-position: center;
+    min-height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.mexicka {
+    background-image: url("images/tacos.jpg");
+    display: flex;
+    background-position: center;
+    min-height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.burgery {
+    background-image: url("images/burger.jpg");
+    display: flex;
+    background-position: center;
+    min-height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Releway', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+h1 {
+    font-family: 'Releway', sans-serif;
+    font-weight: 800;
+    font-size: 1.75rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.1rem;
+}
+
+.kategorie {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: flex;
+    left: auto;
+    padding-left: 0.5rem;
+    padding-top: 0.1rem;
+}
+
+.komentar {
+    font-family: 'Source Sans Pro' sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+
+}
